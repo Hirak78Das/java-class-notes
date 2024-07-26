@@ -1,0 +1,19 @@
+--> In java it compiles the entire source code into byte code(named as .class file) , not like c++ compilation i.e. binary code
+
+-->The source code is not directly converted into machine code 0s and 1s, rather it is convertes into something called byte code which is in .class file
+
+--> We need java virtual machine to run this byte code
+
+--> java is a platform independence cuz:
+     
+     1. byte code can run on all operating systems 
+        whereas, in c++ if we compile a file and run the program on windows,we need to compile it again to run  in mac but for java this byte code can be run in all OS.
+     
+     2. now we need to convert this byte code to machine code using java virtual machine so that computer can understand
+
+--> How JVM works?
+    
+    --> it reads .class file and generate binary data
+    --> an object of this class is created in heap
+
+--> byte codes executes line by line i.e. byte codes is being converted into machine code line by line by JVM
