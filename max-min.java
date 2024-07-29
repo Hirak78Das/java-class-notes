@@ -1,9 +1,10 @@
-import java.lang.*;
+import java.util.*;
 public class max-min
 {
 	public static void main(string args[])
 	{
-		int n=args.length,sum=0;
-		System.out.println("The number of values i have given is ")
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the range: ");
+		
 	}
 }
